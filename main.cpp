@@ -68,33 +68,43 @@ int knapsack(int W, int wt[], int b[], int n)
 
 void entrada(){
 
-    //    // capacidade máxima da mochila: W
-//    int W = 5;
-//    // número de elementos
-//    int n = 5;
-//    // vetor com os valores (benefício) de cada elemento
-//    int b[] = {5,20,10,15,25};
-//    // vetor com os pesos de cada elemento
-//    int wt[] = {1,5,10,15,17};
 
-    // capacidade máxima da mochila: W
-    int W = 2;
-    // número de elementos
-    int n = 3;
-    // vetor com os valores (benefício) de cada elemento
-    int b[] = {2,5,3};
-    // vetor com os pesos de cada elemento
-    int wt[] = {1,2,3};
+//    int W = 5; // capacidade máxima da mochila: W
+//
+//    int n = 5; // número de elementos
+//
+//    int b[] = {5,20,10,15,25}; // vetor com os valores (benefício) de cada elemento
+//
+//    int wt[] = {1,5,10,15,17}; // vetor com os pesos de cada elemento
 
-    // obtém o máximo valor que pode ser colocado na mochila
-    int max_valor = knapsack(W, wt, b, n);
+
+    int W = 2; // capacidade máxima da mochila: W
+
+    int n = 3; // número de elementos
+
+    int b[] = {2,5,3};  // vetor com os valores (benefício) de cada elemento
+
+    int wt[] = {1,2,3}; // vetor com os pesos de cada elemento
+
+    int max_valor = knapsack(W, wt, b, n); // obtém o máximo valor que pode ser colocado na mochila
     cout << "Valor maximo: " << max_valor << endl;
 }
 
 void entrada_de_classe(){
+
     problem_1689 *mochila;
     mochila = new problem_1689;
     mochila->about();
+
+
+//    int W = 2; // capacidade máxima da mochila: W
+//
+//    int n = 3; // número de elementos
+//
+//    int b[] = {2,5,3};  // vetor com os valores (benefício) de cada elemento
+//
+//    int pontos[] = {1,2,3}; // vetor com os pesos de cada elemento
+
 
     int W = 5; // limite de distancia
 

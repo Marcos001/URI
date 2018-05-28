@@ -12,6 +12,7 @@ class problem_1689 {
         int linha;
         int coluna;
         int beneficio;
+        int distancia;
     } Comb;
 
     std::vector<Comb> comb{};

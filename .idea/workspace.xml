@@ -13,10 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2409c4-e98d-40fa-96f1-19e33d96c6f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/problem_1689.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/URI.dir/problem_1689.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/URI" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/URI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_1689.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/problem_1689.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_1689.h" beforeDir="false" afterPath="$PROJECT_DIR$/problem_1689.h" afterDir="false" />
     </list>
@@ -31,20 +31,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="1635">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem_1689.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problem_1689.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem_1689.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="212">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -55,8 +55,8 @@
       <file leaf-file-name="problem_1689.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem_1689.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -73,9 +73,9 @@
         <option value="$PROJECT_DIR$/rdar.cpp" />
         <option value="$PROJECT_DIR$/util.cpp" />
         <option value="$PROJECT_DIR$/util.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/problem_1689.h" />
         <option value="$PROJECT_DIR$/problem_1689.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1527474091310" duration="1308000" />
       <workItem from="1527513004988" duration="1668000" />
       <workItem from="1527534247099" duration="4101000" />
-      <workItem from="1527541770345" duration="3161000" />
+      <workItem from="1527541770345" duration="5367000" />
     </task>
     <task id="LOCAL-00001" summary="classes">
       <created>1527538286114</created>
@@ -180,11 +180,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527542547057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classes problem_1689 funcionando com vector of struct">
+      <created>1527544954718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527544954718</updated>
+    </task>
+    <task id="LOCAL-00004" summary="classes problem_1689 funcionando com vector of struct">
+      <created>1527546380109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527546380109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14437000" />
+    <option name="totallyTimeSpent" value="16643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="-1" width="1340" height="770" extended-state="6" />
@@ -192,11 +206,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2486692" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="99" y="102" width="809" height="382" id="Messages" order="7" type="FLOATING" weight="0.26791278" />
+      <window_info anchor="bottom" x="99" y="102" width="809" height="382" id="Messages" order="7" visible="true" weight="0.2165109" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="259" y="45" width="714" height="400" id="Run" order="2" type="FLOATING" weight="0.3598131" />
+      <window_info anchor="bottom" x="28" y="11" width="1338" height="745" id="Run" order="2" type="FLOATING" weight="0.3598131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647975" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -219,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="classes" />
     <MESSAGE value="classes problem_1689" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes problem_1689" />
+    <MESSAGE value="classes problem_1689 funcionando com vector of struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes problem_1689 funcionando com vector of struct" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp">
@@ -319,27 +334,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/problem_1689.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="212">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_1689.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem_1689.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1635">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
