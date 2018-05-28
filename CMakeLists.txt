@@ -3,4 +3,4 @@ project(URI)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(URI main.cpp util.cpp util.h)
+add_executable(URI main.cpp util.cpp util.h problem_1689.cpp problem_1689.h)
