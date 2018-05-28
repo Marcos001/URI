@@ -6,7 +6,6 @@
 #include <vector>
 #include "problem_1689.h"
 
-
 using namespace std;
 
 
@@ -16,15 +15,31 @@ int problem_1689::distancia(int a, int b){
     return b - a;
 }
 
+bool problem_1689::validar_entradas(int linha, int coluna){
 
+    for(int i=0; i<comb.size(); i++){
+        if((linha == comb[i].linha and coluna == comb[i].coluna)or(coluna == comb[i].linha and linha == comb[i].coluna)){
+            cout << " Valores ja possuem ";
+            cout << linha << ":" << coluna <<" => linha = " << comb[i].linha << " coluna = " << comb[i].coluna << endl;
+            return false;
+        }
+    }
+
+    return true;
+}
+
+void problem_1689::ver_combinacoes(){
+    for(int i=0; i<comb.size(); i++){
+        cout << i <<": linha = " << comb[i].linha << " coluna = " << comb[i].coluna << endl;
+    }
+
+}
 
 
 int problem_1689::mochila_radares(int W, int pontos[], int b[], int n)
 {
 
     int soma = 0;
-
-
 
      int indice = 0;
 
@@ -38,18 +53,18 @@ int problem_1689::mochila_radares(int W, int pontos[], int b[], int n)
                 if(distancia(a,b) >  W){
                     cout << "Candidato com distncia "<< a <<"  " << b << " " << distancia(pontos[i], pontos[j]) << endl;
                     // empilhar as combinacoes de distancia
-                    comb.emplace_back();
-                    comb[indice].linha = a;
-                    comb[indice].coluna = b;
-                    indice += 1;
+                    if(validar_entradas(i,j)){
+                        comb.emplace_back();
+                        comb[indice].linha = i;
+                        comb[indice].coluna = j;
+                        indice += 1;
+                    }
                 }
             }
         }
     }
 
-    for(int i=0; i<indice; i++){
-        cout << i <<": linha = " << comb[i].linha << " coluna = " << comb[i].coluna << endl;
-    }
+    ver_combinacoes();
 
     return soma;
 }
